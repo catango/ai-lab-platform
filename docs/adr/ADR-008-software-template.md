@@ -6,7 +6,7 @@
 | Date | 2026-11-19 |
 | Repositories | `ai-software-template` (primary), `ai-lab-infrastructure` (this record) |
 | Change request | CR-39 (issue #39) |
-| Amended by | CR-43 (design PR #44 merged, 2026-11-20): decisions 1, 2, 3, 6, 9, and 10. ADR-010 (Proposed, CR-45): budgets and loading order, checkpoint format, metrics; closes D10-1 and D10-2 of design section 11. Takes effect when the CR-45 design PR is merged. CR-39 design PR `design/CR-39-tc-amendments` (the approver's decisions of 2026-11-27, design Q15 and Q16): decision 4, TC-1 and TC-2 |
+| Amended by | CR-43 (design PR #44 merged, 2026-11-20): decisions 1, 2, 3, 6, 9, and 10. ADR-010 (Proposed, CR-45): budgets and loading order, checkpoint format, metrics; closes D10-1 and D10-2 of design section 11. Takes effect when the CR-45 design PR is merged. CR-39 design PR `design/CR-39-tc-amendments` (the approver's decisions of 2026-11-27, design Q15 and Q16): decision 4, TC-1 and TC-2. CR-39 design PR `design/CR-39-seeded-files` (design Q17 to Q20, 2026-11-28): section 5, the open item on `owned-drift` is closed (Q18) |
 | Scope | The structure of the template, what is generated into an application repository, `CLAUDE.md`, rules, Skills (including `address-review-feedback`), the CR and ADR templates, template-sync and the init PR, the template's own quality gate and CI, architectures, public and private repositories, the generic operator contract, and the Stage 5 exit. Not ADR-009 (security matrix, Actions hardening) and not ADR-010 (token optimisation, metrics) |
 | Related | ADR-001 (guardrails, instruction trust, RR-10), ADR-003 (work item model, `pr-contract`, Skill impact; amended by this CR), ADR-005 (toolchain; scope amended by this CR), ADR-011 (decision 17, operator contract), ADR-009 and ADR-010 (reserved; dependencies in design section 11) |
 
@@ -66,7 +66,7 @@
 
 ## 5. Open items
 
-Listed in `docs/cr/CR-39/design.md` section 14: the preset, the core-plus-platform deny-list equality check, later adoption by this repository, the follow-through of this repository to ADR-003 as amended, the `owned-drift` reading for `uses:` changes, the verification items, and the Stage 5 entry.
+Listed in `docs/cr/CR-39/design.md` section 14: the preset, the core-plus-platform deny-list equality check, later adoption by this repository, the follow-through of this repository to ADR-003 as amended, the verification items, and the Stage 5 entry.
 
 ## 6. Acceptance criteria
 
